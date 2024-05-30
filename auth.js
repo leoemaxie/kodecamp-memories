@@ -17,5 +17,5 @@ export default function authMiddleware(req, res, next) {
   }
 
   res.set("WWW-Authenticate", "Basic realm=index");
-  res.status(401).json({ error: "Unathorized" });
+  res.status(401).json({ error: "Authentication required" });
 }
