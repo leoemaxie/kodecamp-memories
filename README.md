@@ -22,6 +22,7 @@ To start the server, run the following command:
 ## Endpoints
 
 **/view**: To view all the memories. Optional query parameters: `id` to view a specific memory.
+
 **/new**: To create a new memory.
 
 - Required body parameters:
